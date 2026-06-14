@@ -201,9 +201,9 @@
     <None Include="LVOS\Games\Conway\index.html" />
     <None Include="LVOS\Games\Minesweeper\index.html" />
     <None Include="LVOS\Games\Tetris\tetris.html" />
-    <None Include="LVOS\index.html" />
-    <None Include="LVOS\index2.html" />
-    <None Include="LVOS\indexIE8.html" />
+    <None Include="LVOS\index.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\neo.html" />
     <None Include="LVOS\transformtest.html" />
   </ItemGroup>

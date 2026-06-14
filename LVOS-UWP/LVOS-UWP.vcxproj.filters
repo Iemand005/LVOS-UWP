@@ -74,8 +74,6 @@
     <None Include="LVOS\activetest.html" />
     <None Include="LVOS\example.html" />
     <None Include="LVOS\index.html" />
-    <None Include="LVOS\index2.html" />
-    <None Include="LVOS\indexIE8.html" />
     <None Include="LVOS\neo.html" />
     <None Include="LVOS\transformtest.html" />
   </ItemGroup>
