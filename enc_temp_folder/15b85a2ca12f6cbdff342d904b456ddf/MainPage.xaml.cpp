@@ -24,4 +24,10 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
+
+	//web.load
+	//web->Source = new Uri
+	//web->Source.
+	//web->on
+	//web->Source = ref new Uri("file:///E:/LVOS/index.html");
 }
