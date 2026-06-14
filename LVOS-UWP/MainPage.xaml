@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <WebView Name="web" Source="file:///E:/LVOS/index.html"></WebView>
+        <WebView Name="web" Source="http://localhost:5500"></WebView>
     </Grid>
 </Page>
