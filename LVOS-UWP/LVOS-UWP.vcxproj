@@ -158,6 +158,15 @@
     <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Image Include="Assets\StoreLogo.png" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Image Include="LVOS\Applications\GeodeWeb\Crystal.png" />
+    <Image Include="LVOS\Applications\GeodeWeb\Logo-192.png" />
+    <Image Include="LVOS\Applications\GeodeWeb\Logo-512.png" />
+    <Image Include="LVOS\Applications\GeodeWeb\Logo.png" />
+    <Image Include="LVOS\Applications\GeodeWeb\Stellar Stones.png" />
+    <Image Include="LVOS\Applications\GeodeWeb\StellarVeryLight.png" />
+    <Image Include="LVOS\Applications\MPTool\icon.png" />
+    <Image Include="LVOS\Applications\MPTool\load.gif" />
+    <Image Include="LVOS\Applications\StereogramMaker\image.png" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.xaml.cpp">
@@ -177,21 +186,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="LVOS\activetest.html" />
+    <None Include="LVOS\Applications\Browser\Browser.js" />
     <None Include="LVOS\Applications\Browser\index.html" />
+    <None Include="LVOS\Applications\Browser\style.css" />
+    <None Include="LVOS\Applications\Calculator\calculator.css" />
     <None Include="LVOS\Applications\Calculator\calculator.html" />
+    <None Include="LVOS\Applications\Calculator\Calculator.js" />
     <None Include="LVOS\Applications\Calculator\index.html" />
+    <None Include="LVOS\Applications\Calculator\style.css" />
     <None Include="LVOS\Applications\Camera\index.html" />
     <None Include="LVOS\Applications\Citaten\add.html" />
     <None Include="LVOS\Applications\Citaten\index.html" />
     <None Include="LVOS\Applications\Clock\index.html" />
     <None Include="LVOS\Applications\Controls\controls.html" />
     <None Include="LVOS\Applications\Coverflow\Coverflow.html" />
+    <None Include="LVOS\Applications\Cube\cube.css" />
     <None Include="LVOS\Applications\Cube\cube.html" />
+    <None Include="LVOS\Applications\Cube\cube.js" />
+    <None Include="LVOS\Applications\Cyanide\metronome\index.html" />
+    <None Include="LVOS\Applications\Cyanide\rainboy\index.html" />
     <None Include="LVOS\Applications\Error\error.html" />
+    <None Include="LVOS\Applications\FrostedColours\index.html" />
+    <None Include="LVOS\Applications\FrostedColours\style.css" />
+    <None Include="LVOS\Applications\GeodeWeb\app.hta" />
+    <None Include="LVOS\Applications\GeodeWeb\geode.js" />
+    <None Include="LVOS\Applications\GeodeWeb\GeodeWeb.slnx" />
+    <None Include="LVOS\Applications\GeodeWeb\index.html" />
+    <None Include="LVOS\Applications\GeodeWeb\index.js" />
+    <None Include="LVOS\Applications\GeodeWeb\login.html" />
+    <None Include="LVOS\Applications\GeodeWeb\login.js" />
+    <None Include="LVOS\Applications\GeodeWeb\manifest.json" />
+    <None Include="LVOS\Applications\GeodeWeb\nav.html" />
+    <None Include="LVOS\Applications\GeodeWeb\profile.html" />
+    <None Include="LVOS\Applications\GeodeWeb\profile.js" />
+    <None Include="LVOS\Applications\GeodeWeb\search.html" />
+    <None Include="LVOS\Applications\GeodeWeb\search.js" />
+    <None Include="LVOS\Applications\GeodeWeb\settings.html" />
+    <None Include="LVOS\Applications\GeodeWeb\settings.js" />
+    <None Include="LVOS\Applications\GeodeWeb\style.css" />
+    <None Include="LVOS\Applications\GeodeWeb\sw.js" />
+    <None Include="LVOS\Applications\GeodeWeb\upload.html" />
+    <None Include="LVOS\Applications\GeodeWeb\upload.js" />
+    <None Include="LVOS\Applications\GeodeWeb\Web.config" />
     <None Include="LVOS\Applications\Level\level.html" />
+    <None Include="LVOS\Applications\Level\Sensor.js" />
+    <None Include="LVOS\Applications\Level\style.css" />
+    <None Include="LVOS\Applications\MPTool\.gitignore" />
+    <None Include="LVOS\Applications\MPTool\account.css" />
+    <None Include="LVOS\Applications\MPTool\account.html" />
+    <None Include="LVOS\Applications\MPTool\account.js" />
+    <None Include="LVOS\Applications\MPTool\index.html" />
+    <None Include="LVOS\Applications\MPTool\index.js" />
+    <None Include="LVOS\Applications\MPTool\MinecraftServicesClient.js" />
+    <None Include="LVOS\Applications\MPTool\PlayfabAccount.js" />
+    <None Include="LVOS\Applications\MPTool\PlayfabClient.js" />
+    <None Include="LVOS\Applications\MPTool\README.md" />
+    <None Include="LVOS\Applications\MPTool\StateManager.js" />
+    <None Include="LVOS\Applications\MPTool\style.css" />
+    <None Include="LVOS\Applications\MPTool\XboxAccount.js" />
     <None Include="LVOS\Applications\Music\index.html" />
+    <None Include="LVOS\Applications\Physics\drawing.js" />
+    <None Include="LVOS\Applications\Physics\Engine.js" />
     <None Include="LVOS\Applications\Physics\index.html" />
+    <None Include="LVOS\Applications\Physics\style.css" />
     <None Include="LVOS\Applications\RenderDonkey\index.html" />
+    <None Include="LVOS\Applications\RenderDonkey\renderfox.js" />
+    <None Include="LVOS\Applications\RenderDonkey\style.css" />
+    <None Include="LVOS\Applications\StereogramMaker\.gitignore" />
+    <None Include="LVOS\Applications\StereogramMaker\Graphics.js" />
+    <None Include="LVOS\Applications\StereogramMaker\index.html" />
     <None Include="LVOS\Applications\Velocities\index.html" />
     <None Include="LVOS\Applications\Verlet\index.html" />
     <None Include="LVOS\Applications\Video\index.html" />
@@ -278,6 +341,9 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="LVOS\transformtest.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LVOS\Applications\GeodeWeb\debug.log" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
