@@ -184,6 +184,10 @@
     <None Include="LVOS\Scripts\WebGraphics\Graphics.js" />
     <None Include="LVOS\Scripts\WebGraphics\Graphics2D.js" />
     <None Include="LVOS\Scripts\WebGraphics\Graphics3D.js" />
+    <None Include="LVOS\Applications\Music\music.css" />
+    <None Include="LVOS\Applications\Music\music.js" />
+    <None Include="LVOS\Applications\Music\visualiser.js" />
+    <None Include="LVOS\Applications\Music\visualiseradvanced.js" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="LVOS\Applications\GeodeWeb\debug.log" />

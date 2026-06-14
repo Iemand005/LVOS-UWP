@@ -248,9 +248,15 @@
     <None Include="LVOS\Applications\GeodeWeb\upload.html" />
     <None Include="LVOS\Applications\GeodeWeb\upload.js" />
     <None Include="LVOS\Applications\GeodeWeb\Web.config" />
-    <None Include="LVOS\Applications\Level\level.html" />
-    <None Include="LVOS\Applications\Level\Sensor.js" />
-    <None Include="LVOS\Applications\Level\style.css" />
+    <None Include="LVOS\Applications\Level\level.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Level\Sensor.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Level\style.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\Applications\MPTool\.gitignore" />
     <None Include="LVOS\Applications\MPTool\account.css" />
     <None Include="LVOS\Applications\MPTool\account.html" />
@@ -264,7 +270,21 @@
     <None Include="LVOS\Applications\MPTool\StateManager.js" />
     <None Include="LVOS\Applications\MPTool\style.css" />
     <None Include="LVOS\Applications\MPTool\XboxAccount.js" />
-    <None Include="LVOS\Applications\Music\index.html" />
+    <None Include="LVOS\Applications\Music\index.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Music\music.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Music\music.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Music\visualiser.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Music\visualiseradvanced.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\Applications\Physics\drawing.js" />
     <None Include="LVOS\Applications\Physics\Engine.js" />
     <None Include="LVOS\Applications\Physics\index.html" />
