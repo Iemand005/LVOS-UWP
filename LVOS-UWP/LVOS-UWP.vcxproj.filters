@@ -8,17 +8,75 @@
       <UniqueIdentifier>9fc9e613-c8c3-406c-ac2c-e8d30ceef6c6</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
-    <Image Include="Assets\Logo.scale-100.png">
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\SmallLogo.scale-100.png">
+    <Image Include="Assets\SplashScreen.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\StoreLogo.scale-100.png">
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\SplashScreen.scale-100.png">
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LVOS\Applications\Browser\index.html" />
+    <None Include="LVOS\Applications\Calculator\calculator.html" />
+    <None Include="LVOS\Applications\Calculator\index.html" />
+    <None Include="LVOS\Applications\Camera\index.html" />
+    <None Include="LVOS\Applications\Citaten\add.html" />
+    <None Include="LVOS\Applications\Citaten\index.html" />
+    <None Include="LVOS\Applications\Clock\index.html" />
+    <None Include="LVOS\Applications\Controls\controls.html" />
+    <None Include="LVOS\Applications\Coverflow\Coverflow.html" />
+    <None Include="LVOS\Applications\Cube\cube.html" />
+    <None Include="LVOS\Applications\Error\error.html" />
+    <None Include="LVOS\Applications\Level\level.html" />
+    <None Include="LVOS\Applications\Music\index.html" />
+    <None Include="LVOS\Applications\Physics\index.html" />
+    <None Include="LVOS\Applications\RenderDonkey\index.html" />
+    <None Include="LVOS\Applications\Velocities\index.html" />
+    <None Include="LVOS\Applications\Verlet\index.html" />
+    <None Include="LVOS\Applications\Video\index.html" />
+    <None Include="LVOS\Applications\Wallpaper\index.html" />
+    <None Include="LVOS\Applications\WebXR\index.html" />
+    <None Include="LVOS\Games\Conway\index.html" />
+    <None Include="LVOS\Games\Minesweeper\index.html" />
+    <None Include="LVOS\Games\Tetris\tetris.html" />
+    <None Include="LVOS\activetest.html" />
+    <None Include="LVOS\example.html" />
+    <None Include="LVOS\index.html" />
+    <None Include="LVOS\index2.html" />
+    <None Include="LVOS\indexIE8.html" />
+    <None Include="LVOS\neo.html" />
+    <None Include="LVOS\transformtest.html" />
   </ItemGroup>
 </Project>

@@ -76,30 +76,22 @@
     <PlatformToolset>v145</PlatformToolset>
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-
   <PropertyGroup Label="UserMacros" />
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
@@ -136,17 +128,15 @@
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
     </ClCompile>
   </ItemDefinitionGroup>
-
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
-        <DependentUpon>App.xaml</DependentUpon>
+      <DependentUpon>App.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="MainPage.xaml.h">
-        <DependentUpon>MainPage.xaml</DependentUpon>
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </ClInclude>
   </ItemGroup>
-
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
@@ -155,13 +145,11 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
   </ItemGroup>
-
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
@@ -171,15 +159,13 @@
     <Image Include="Assets\StoreLogo.png" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
-
   <ItemGroup>
     <ClCompile Include="App.xaml.cpp">
-        <DependentUpon>App.xaml</DependentUpon>
+      <DependentUpon>App.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="MainPage.xaml.cpp">
-        <DependentUpon>MainPage.xaml</DependentUpon>
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </ClCompile>
-
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -189,10 +175,39 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
-
+  <ItemGroup>
+    <None Include="LVOS\activetest.html" />
+    <None Include="LVOS\Applications\Browser\index.html" />
+    <None Include="LVOS\Applications\Calculator\calculator.html" />
+    <None Include="LVOS\Applications\Calculator\index.html" />
+    <None Include="LVOS\Applications\Camera\index.html" />
+    <None Include="LVOS\Applications\Citaten\add.html" />
+    <None Include="LVOS\Applications\Citaten\index.html" />
+    <None Include="LVOS\Applications\Clock\index.html" />
+    <None Include="LVOS\Applications\Controls\controls.html" />
+    <None Include="LVOS\Applications\Coverflow\Coverflow.html" />
+    <None Include="LVOS\Applications\Cube\cube.html" />
+    <None Include="LVOS\Applications\Error\error.html" />
+    <None Include="LVOS\Applications\Level\level.html" />
+    <None Include="LVOS\Applications\Music\index.html" />
+    <None Include="LVOS\Applications\Physics\index.html" />
+    <None Include="LVOS\Applications\RenderDonkey\index.html" />
+    <None Include="LVOS\Applications\Velocities\index.html" />
+    <None Include="LVOS\Applications\Verlet\index.html" />
+    <None Include="LVOS\Applications\Video\index.html" />
+    <None Include="LVOS\Applications\Wallpaper\index.html" />
+    <None Include="LVOS\Applications\WebXR\index.html" />
+    <None Include="LVOS\example.html" />
+    <None Include="LVOS\Games\Conway\index.html" />
+    <None Include="LVOS\Games\Minesweeper\index.html" />
+    <None Include="LVOS\Games\Tetris\tetris.html" />
+    <None Include="LVOS\index.html" />
+    <None Include="LVOS\index2.html" />
+    <None Include="LVOS\indexIE8.html" />
+    <None Include="LVOS\neo.html" />
+    <None Include="LVOS\transformtest.html" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-
 </Project>
