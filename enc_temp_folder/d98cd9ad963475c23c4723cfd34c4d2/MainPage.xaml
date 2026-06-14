@@ -8,5 +8,5 @@
     mc:Ignorable="d"
     Background="{ThemeResource SystemControlAcrylicWindowBrush}">
 
-    <WebView Name="web" Source="ms-appx-web:///LVOS/index.html" DefaultBackgroundColor="Transparent"></WebView>
+    <WebView Name="web" Source="ms-appx-web:///LVOS/index.html"></WebView>
 </Page>
