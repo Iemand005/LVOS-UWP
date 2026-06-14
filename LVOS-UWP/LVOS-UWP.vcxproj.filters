@@ -181,6 +181,9 @@
     <None Include="LVOS\Applications\FrostedColours\style.css" />
     <None Include="LVOS\Applications\Cube\cube.css" />
     <None Include="LVOS\Applications\Cube\cube.js" />
+    <None Include="LVOS\Scripts\WebGraphics\Graphics.js" />
+    <None Include="LVOS\Scripts\WebGraphics\Graphics2D.js" />
+    <None Include="LVOS\Scripts\WebGraphics\Graphics3D.js" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="LVOS\Applications\GeodeWeb\debug.log" />

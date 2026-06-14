@@ -333,6 +333,15 @@
     <None Include="LVOS\Scripts\Theming.js">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="LVOS\Scripts\WebGraphics\Graphics.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\WebGraphics\Graphics2D.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\WebGraphics\Graphics3D.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\Scripts\WindowManager.js">
       <DeploymentContent>true</DeploymentContent>
     </None>
