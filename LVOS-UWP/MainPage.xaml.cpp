@@ -29,5 +29,5 @@ MainPage::MainPage()
 	//web->Source = new Uri
 	//web->Source.
 	//web->on
-	web->Source = ref new Uri("file:///E:/LVOS/index.html");
+	//web->Source = ref new Uri("file:///E:/LVOS/index.html");
 }
