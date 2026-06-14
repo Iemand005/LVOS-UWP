@@ -76,5 +76,29 @@
     <None Include="LVOS\index.html" />
     <None Include="LVOS\neo.html" />
     <None Include="LVOS\transformtest.html" />
+    <None Include="LVOS\Styles\classes.css" />
+    <None Include="LVOS\Styles\desktop.css" />
+    <None Include="LVOS\Styles\general.css" />
+    <None Include="LVOS\Styles\Mica.css" />
+    <None Include="LVOS\Styles\ProvisionedApps.css" />
+    <None Include="LVOS\Styles\themes.css" />
+    <None Include="LVOS\Styles\windows.css" />
+    <None Include="LVOS\Scripts\Animation.js" />
+    <None Include="LVOS\Scripts\Console.js" />
+    <None Include="LVOS\Scripts\CustomPrototypes.js" />
+    <None Include="LVOS\Scripts\DesktopManager.js" />
+    <None Include="LVOS\Scripts\FileSystem.js" />
+    <None Include="LVOS\Scripts\LVOSLoader.js" />
+    <None Include="LVOS\Scripts\Math.js" />
+    <None Include="LVOS\Scripts\messenger.js" />
+    <None Include="LVOS\Scripts\Mica.js" />
+    <None Include="LVOS\Scripts\physics.js" />
+    <None Include="LVOS\Scripts\ProvisionedApps.js" />
+    <None Include="LVOS\Scripts\Reflector.js" />
+    <None Include="LVOS\Scripts\Settings.js" />
+    <None Include="LVOS\Scripts\sw.js" />
+    <None Include="LVOS\Scripts\Theming.js" />
+    <None Include="LVOS\Scripts\WindowManager.js" />
+    <None Include="LVOS\Scripts\youtube.js" />
   </ItemGroup>
 </Project>

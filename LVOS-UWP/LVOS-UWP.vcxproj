@@ -205,6 +205,78 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="LVOS\neo.html" />
+    <None Include="LVOS\Scripts\Animation.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\Console.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\CustomPrototypes.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\DesktopManager.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\FileSystem.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\LVOSLoader.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\Math.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\messenger.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\Mica.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\physics.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\ProvisionedApps.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\Reflector.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\Settings.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\sw.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\Theming.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\WindowManager.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Scripts\youtube.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Styles\classes.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Styles\desktop.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Styles\general.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Styles\Mica.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Styles\ProvisionedApps.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Styles\themes.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Styles\windows.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\transformtest.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
