@@ -26,4 +26,6 @@ MainPage::MainPage()
 	InitializeComponent();
 
 	//web.load
+	//web->Source = new Uri
+	//web->Source.
 }
