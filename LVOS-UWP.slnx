@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LVOS-UWP/LVOS-UWP.vcxproj" Id="f6d8fd27-1197-4f65-9ad4-8dd5ce532221">
+    <Deploy />
+  </Project>
+</Solution>
