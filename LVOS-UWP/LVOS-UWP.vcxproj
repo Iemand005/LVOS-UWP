@@ -189,25 +189,45 @@
     <None Include="LVOS\Applications\Browser\Browser.js" />
     <None Include="LVOS\Applications\Browser\index.html" />
     <None Include="LVOS\Applications\Browser\style.css" />
-    <None Include="LVOS\Applications\Calculator\calculator.css" />
-    <None Include="LVOS\Applications\Calculator\calculator.html" />
-    <None Include="LVOS\Applications\Calculator\Calculator.js" />
-    <None Include="LVOS\Applications\Calculator\index.html" />
-    <None Include="LVOS\Applications\Calculator\style.css" />
+    <None Include="LVOS\Applications\Calculator\calculator.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Calculator\calculator.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Calculator\Calculator.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Calculator\index.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Calculator\style.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\Applications\Camera\index.html" />
     <None Include="LVOS\Applications\Citaten\add.html" />
     <None Include="LVOS\Applications\Citaten\index.html" />
     <None Include="LVOS\Applications\Clock\index.html" />
     <None Include="LVOS\Applications\Controls\controls.html" />
     <None Include="LVOS\Applications\Coverflow\Coverflow.html" />
-    <None Include="LVOS\Applications\Cube\cube.css" />
-    <None Include="LVOS\Applications\Cube\cube.html" />
-    <None Include="LVOS\Applications\Cube\cube.js" />
+    <None Include="LVOS\Applications\Cube\cube.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Cube\cube.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\Cube\cube.js">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\Applications\Cyanide\metronome\index.html" />
     <None Include="LVOS\Applications\Cyanide\rainboy\index.html" />
     <None Include="LVOS\Applications\Error\error.html" />
-    <None Include="LVOS\Applications\FrostedColours\index.html" />
-    <None Include="LVOS\Applications\FrostedColours\style.css" />
+    <None Include="LVOS\Applications\FrostedColours\index.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="LVOS\Applications\FrostedColours\style.css">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LVOS\Applications\GeodeWeb\app.hta" />
     <None Include="LVOS\Applications\GeodeWeb\geode.js" />
     <None Include="LVOS\Applications\GeodeWeb\GeodeWeb.slnx" />
