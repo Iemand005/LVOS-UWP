@@ -8,7 +8,5 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <WebView Name="web" Source="ms-appx-web:///LVOS/index.html"></WebView>
-    </Grid>
+    <WebView Name="web" Source="ms-appx-web:///LVOS/index.html"></WebView>
 </Page>
